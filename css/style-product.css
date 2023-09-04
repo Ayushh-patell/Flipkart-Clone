@@ -1,0 +1,351 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+p {
+    margin: 0;
+}
+
+.image-list {
+    position: relative;
+    min-width: 90px;
+    max-width: 90px;
+    max-height: 400px;
+    overflow: scroll;
+    transition: all linear 0.2s;
+}
+
+.img-box {
+    border: 1px solid rgba(104, 104, 104, 0.47);
+}
+
+.image-list img {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image-list .btn {
+    position: sticky;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.215);
+
+}
+
+.image-list .btn:nth-child(odd) {
+    top: 0;
+}
+
+.image-list .btn:nth-child(even) {
+    bottom: 0;
+
+}
+.like {
+    font-size: 1.7rem;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(141, 141, 141, 0.441);
+    top: 5px;
+    right: 5px;
+    color: gray;
+}
+.like-clicked {
+    color: hotpink;
+}
+
+.img-box-clr {
+    max-height: 50px;
+}
+
+.img-box-clr img {
+    height: 100%;
+}
+
+.title {
+    color: gray;
+    margin: 0 0.4rem;
+    font-weight: 600;
+}
+
+.detail {
+    width: 90%;
+}
+
+.row {
+    background-color: white;
+}
+
+.input-box {
+    width: fit-content;
+    border-bottom: 3px solid blue;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+}
+
+.input-box input::placeholder {
+    font-weight: 600;
+}
+
+.input-box p {
+    font-weight: 300;
+}
+
+.input-box .date {
+    font-weight: 600;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li {
+    font-size: 0.9rem;
+}
+
+.desc {
+    font-size: 0.8rem;
+}
+
+.rating {
+    color: gray;
+}
+
+.rating span {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: 0px 4px;
+    border-radius: 4px;
+    margin-right: 0.6rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.offer {
+    font-size: 0.9rem;
+}
+
+.offer span {
+    font-weight: 600;
+    margin-right: 0.4rem;
+}
+
+.prod-desc {
+    align-items: center;
+    height: 200px;
+    border-bottom: 1px solid rgba(104, 104, 104, 0.47);
+
+}
+
+.bottom-desc {
+    border-bottom: none;
+}
+
+.description,
+.specs,
+.other-prod,
+.rating-prod, 
+.questions {
+    margin: 0.3rem;
+    border: 1px solid rgba(104, 104, 104, 0.47);
+}
+h3 {
+    font-weight: 600;
+}
+.description h3,
+.specs h3,
+.other-prod h3,
+.card-cont,
+.rating-prod h3, 
+.reviews, 
+.questions h3, 
+.question-box {
+    border-bottom: 1px solid rgba(104, 104, 104, 0.47);
+}
+
+.spec {
+    display: flex;
+    justify-content: left;
+    font-size: 0.9rem;
+}
+
+.spec p {
+    margin-bottom: 1rem;
+}
+
+.spec .spec-name {
+    color: gray;
+}
+
+.spec .spec-value {
+    margin-left: 3rem;
+}
+
+.plus,
+.equal {
+    font-size: 1.4rem;
+    color: gray;
+    font-weight: 700;
+}
+
+.price-item {
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.other-desc {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.other-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.rating-bar {
+    background-color: rgb(162, 162, 162);
+    position: relative;
+    width: 100px;
+    height: 7px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0 0.7rem;
+}
+
+.rating-box .rating-line:nth-child(1) .rating-bar::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    background-color: green;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rating-box .rating-line:nth-child(2) .rating-bar::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    background-color: green;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rating-box .rating-line:nth-child(3) .rating-bar::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    background-color: green;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rating-box .rating-line:nth-child(4) .rating-bar::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    background-color: orange;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rating-box .rating-line:nth-child(5) .rating-bar::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    background-color: rgb(200, 0, 0);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rating-circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+}
+
+.rating-circle span {
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-weight: 700;
+}
+
+.circle-ratings p {
+    text-align: center;
+}
+
+.rating-circle-1 {
+    background: radial-gradient(closest-side, white 75%, #0000 76% 100%), conic-gradient(#00a703 76%, silver 0);
+}
+
+.rating-circle-2 {
+    background: radial-gradient(closest-side, white 75%, #0000 76% 100%), conic-gradient(#00a703 70%, silver 0);
+}
+
+.rating-circle-3 {
+    background: radial-gradient(closest-side, white 75%, #0000 76% 100%), conic-gradient(#00a703 86%, silver 0);
+}
+
+.rating-circle-4 {
+    background: radial-gradient(closest-side, white 75%, #0000 76% 100%), conic-gradient(#00a703 72%, silver 0);
+}
+
+.reviews p {
+    text-align: left;
+}
+
+.user {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.content {
+    font-size: 0.8rem;
+}
+
+.card-box {
+    padding-top: 5rem;
+position: relative;
+}
+.card-cont {
+    overflow: scroll;
+    flex-wrap: nowrap;
+}
+.view-box {
+    position: absolute;
+    padding: 1rem 0.1rem;
+    top: 0px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.view-box button {
+    width: 7%;
+    margin-left: auto;
+}
+.card a {
+    width: 16rem;
+    height: 20rem;
+    position: relative;
+    align-items: center;
+}
+.card a img {
+    width: 100%;
+  height: fit-content;
+}

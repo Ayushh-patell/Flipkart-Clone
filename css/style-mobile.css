@@ -1,0 +1,93 @@
+.menu-category p {
+    margin-bottom: 0 !important;
+    padding: 0.5rem 0 !important;
+}
+
+desc p {
+    font-size: 0.8rem;
+}
+
+.sale-banner {
+    background: radial-gradient(circle, rgba(84, 137, 254, 1) 0%, rgba(10, 0, 255, 1) 50%);
+    height: 240px;
+    margin: 0 0.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.sale-banner h3 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 0 0 1px white, 0 0 5px white;
+    text-align: center;
+
+}
+
+.brand {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.brand p {
+    margin-bottom: 0;
+}
+
+.brand-image {
+    width: 160px;
+    position: relative;
+}
+
+.brand-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s linear;
+}
+
+.brand-image img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+.title {
+    margin: 1rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(ellipse at top, #64afff, rgba(255, 255, 255, 0.6) 50%);
+}
+
+.title h5 {
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 5px solid yellow;
+}
+.flagship .col-3 {
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgb(182, 212, 252), #64afff);
+    width: 32%;
+    padding: 1rem 0.4rem;
+}
+.card-img-top {
+    width: 70%;
+    margin: auto;
+}
+.card-box {
+    padding-top: 5rem;
+position: relative;
+}
+.card-cont {
+    overflow: scroll;
+    flex-wrap: nowrap;
+}
+.view-box {
+    position: absolute;
+    padding: 1rem 0.1rem;
+    top: 0px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.view-box button {
+    width: 7%;
+    margin-left: auto;
+}

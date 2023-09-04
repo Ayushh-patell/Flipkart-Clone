@@ -1,0 +1,29 @@
+.desc {
+    font-size: 0.8rem;
+}
+
+.card {
+    width: 18rem;
+    height: 20rem;
+    overflow: hidden;
+    margin: 0.5rem;
+}
+.card:hover .card-body .card-text .prod-name {
+    color: rgb(0, 68, 255);
+}
+
+.card-img-top {
+    width: auto;
+    height: 13rem;
+    margin: auto;
+}
+.card-body {
+    padding: 2rem 1rem;
+    transition: padding 0.2s linear;
+}
+.card-text p {
+    text-align: left;
+}
+.company {
+    font-weight: 600;
+}

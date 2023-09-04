@@ -1,0 +1,12 @@
+
+.nav-menu img {
+    width: 50%;
+}
+
+.view-box {
+    background: linear-gradient(0deg, rgba(137, 47, 199, 0.5786647422640931) 0%, rgba(255, 255, 255, 1) 50%);
+}
+
+.view-box-2 {
+    background: linear-gradient(0deg, rgba(37, 229, 158, 0.5786647422640931) 0%, rgba(255, 255, 255, 1) 50%);
+}

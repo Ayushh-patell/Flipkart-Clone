@@ -1,0 +1,279 @@
+body {
+    background-color: white;
+}
+
+.row {
+    background-color: rgb(235, 235, 235);
+}
+
+footer .row {
+    background-color: transparent;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar p,
+.navbar p:hover,
+.nav-item a {
+    color: white;
+}
+
+.brand-name,
+.brand-sub {
+    margin: 0;
+}
+
+.rating {
+    color: gray;
+}
+
+.rating span {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: 0px 2px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.brand-sub {
+    color: yellow !important;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+#navbar-content {
+    flex-grow: 0;
+}
+
+#search-form {
+    margin: 0 1rem;
+}
+
+#search-form input {
+    width: 40vw;
+}
+
+#search-form button {
+    background-color: white;
+}
+#search-btn {
+    display: flex;
+    align-items: center;
+}
+#search-btn ion-icon {
+    font-size: 1.3rem;
+    font-weight: 600;
+} 
+
+
+.login-btn,
+.login-btn:hover,
+.login-btn:focus {
+    color: #0d6efd;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+}
+
+.dropdown-menu-opac {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px) scaleY(0%);
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.login-btn .dropdown-menu-opac {
+    top: 45px;
+    left: -60px;
+}
+
+.login-btn .dropdown-menu-opac::before {
+    content: "";
+    border-bottom: 9px solid white;
+    position: absolute;
+    top: -9px;
+    border-left: 10px solid #0d6efd;
+    ;
+    left: 50%;
+    translate: -50%;
+    border-right: 10px solid #0d6efd;
+    ;
+}
+
+.nav-item {
+    font-weight: 600;
+    margin: 0 1rem;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+.dropdown:hover .dropdown-menu-opac {
+    transform: translateY(0px) scaleY(100%);
+    transition: transform 0s, opacity 0.2s linear;
+    opacity: 1;
+}
+
+.category {
+    color: black !important;
+    text-decoration: none;
+}
+
+.nav-menu {
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid rgba(104, 104, 104, 0.47);
+    
+}
+
+.nav-menu .col:hover {
+    color: #0d6efd;
+}
+
+.menu-list,
+.list-list {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px) scaleY(0%);
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+
+}
+
+.menu-list {
+    top: 100%;
+    left: -42%;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.menu-list li,
+.list-list li {
+    padding-left: 1rem;
+}
+
+.list-list {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    top: -1px;
+    right: -100.7%;
+}
+
+.menu-drop:hover .menu-list {
+    transform: translateY(0px) scaleY(100%);
+    opacity: 1;
+    transition: transform 0s, opacity 0.2s linear;
+}
+
+.menu-list li:hover .list-list {
+    transform: translateY(0px) scaleY(100%);
+    opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 4%;
+    height: 45%;
+    top: 30%;
+    background-color: black;
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.carousel-control-next {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-box {
+    overflow: scroll;
+    flex-wrap: nowrap;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-text p {
+    text-align: center;
+}
+
+footer {
+    background-color: #172337;
+    color: white;
+}
+
+footer .row .col ul {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.filter {
+    width: 15%;
+}
+
+.filter ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.filter-title {
+    font-size: 1.1rem;
+    padding: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.accordion-body ul {
+    position: relative;
+}
+
+.accordion-body ul label {
+    position: relative;
+    width: 100%;
+}

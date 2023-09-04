@@ -1,0 +1,22 @@
+.card-box {
+    padding-top: 5rem;
+position: relative;
+}
+.card-cont {
+    overflow: scroll;
+    flex-wrap: nowrap;
+}
+.view-box {
+    position: absolute;
+    padding: 1rem 0.1rem;
+    top: 0px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.view-box button {
+    width: 7%;
+    margin-left: auto;
+}
+body {
+    background-color: rgb(235, 235, 235);
+}

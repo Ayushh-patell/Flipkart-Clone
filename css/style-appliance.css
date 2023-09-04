@@ -1,0 +1,69 @@
+.sale-text {
+    font-size: 35px;
+    color: blue;
+    font-weight: 900;
+}
+
+.sale-text-2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sale-box {
+    padding: 7rem;
+    background-color: #9cffff;
+    margin: 0.25rem;
+}
+.option, .price-offer {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0.2rem;
+}
+.option span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+.title-2 {
+    padding: 1.3rem 0;
+    background-color: white;
+}
+.title-2 h3{
+    font-size: 50px;
+    color: rgb(27, 54, 255);
+    text-align: center;
+    font-weight: 800;
+}
+.title-2 p{
+    font-size: 40px;
+    text-align: center;
+}
+.price-offer {
+    position: relative;
+    margin: 0.5rem;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 5px solid aquamarine;
+}
+.price-offer p {
+    width: 100%;
+}
+.price-offer .price {
+    color: gray;
+}
+.product {
+    height: 200px;
+    padding: 1rem;
+    width: 32%;
+    background: linear-gradient(0deg, rgba(118,255,239,1) 0%, rgba(98,255,205,1) 100%);    justify-content: space-between;
+    align-items: center;
+}
+.product .name, .product .price {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.product .price {
+    color: rgb(53, 53, 53);
+}
