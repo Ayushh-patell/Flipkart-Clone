@@ -32,6 +32,6 @@
    * Click on a product to view its detailed information on the product page.
 
      
-![Screenshot 2023-09-07 105218](https://github.com/Ayushh-patell/Flipkart-Layout-Clone/assets/142811459/a238e22d-e9dd-4428-b4a0-fbc21f1ed486)
+![Screenshot 2023-09-28 111114](https://github.com/Ayushh-patell/Flipkart-Clone/assets/142811459/34acf182-1fb8-4048-9500-86c574786d1d)
 ![Screenshot 2023-09-07 105258](https://github.com/Ayushh-patell/Flipkart-Layout-Clone/assets/142811459/8eaa491b-40b3-40e1-92b1-5598f897225e)
 ![Screenshot 2023-09-07 105406](https://github.com/Ayushh-patell/Flipkart-Layout-Clone/assets/142811459/3af60832-9819-42e1-bdfa-849c1e78d59e)
