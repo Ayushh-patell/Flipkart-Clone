@@ -1,13 +1,15 @@
 .image-container {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 800px;
     overflow: hidden;
     margin: 1rem 0;
 }
 
 .image-container img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .details {
@@ -24,7 +26,11 @@
 }
 
 .location {
+    width: 50%;
     position: relative;
+}
+.date {
+    width: 50%;
 }
 
 .location label {
@@ -43,6 +49,11 @@
     min-width: 35rem;
 }
 
+.dropdown-menu .container-fluid {
+    max-height: 320px;
+    overflow-y: scroll;
+}
+
 .cabin-title {
     font-size: 0.9rem;
     color: #424242;
@@ -54,6 +65,10 @@
 
 .passenger {
     font-size: 0.9rem;
+}
+
+.passenger-type {
+    justify-content: space-between;
 }
 
 .passenger-age {
@@ -82,9 +97,11 @@
     border-radius: 20px;
     color: white;
 }
+
 .offer-card:nth-child(even) {
     background-color: rgb(64, 0, 255);
 }
+
 .offer-card:nth-child(odd) {
     background-color: rgb(255, 0, 132);
 }
@@ -96,4 +113,21 @@
     padding: 0 5px;
     font-weight: 600;
     margin-left: 0.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .dropdown-menu {
+        min-width: 24rem;
+    }
+}
+@media screen and (max-width:574px) {
+    .dropdown-menu {
+        min-width: 14rem;
+    }
+    .location {
+        width: 100%;
+    }
+    .date {
+        width: 100%;
+    }
 }

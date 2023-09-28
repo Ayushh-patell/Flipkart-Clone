@@ -8,8 +8,15 @@
     overflow: hidden;
     margin: 0.5rem;
 }
+.view-box {
+    position: absolute;
+}
 .card:hover .card-body .card-text .prod-name {
     color: rgb(0, 68, 255);
+}
+.nav-menu {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
 }
 
 .card-img-top {

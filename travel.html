@@ -70,7 +70,7 @@
                   name="trip-detail" id="return-trip"> Return Trip </label>
             </div>
             <div class="row bg-white p-2">
-              <div class="location col-5 d-flex">
+              <div class="location d-flex">
                 <div class="form-floating me-2">
                   <input type="text" class="form-control" id="from-dest" placeholder="From">
                   <label for="from-dest">From</label>
@@ -80,33 +80,33 @@
                   <label for="to-dest">To</label>
                 </div>
               </div>
-              <div class="date col-4 d-flex">
+              <div class="date d-flex">
                 <input type="date" name="Depart" id="" class="form-control me-2">
                 <input type="date" name="Return" id="" class="form-control">
               </div>
-              <div class="dropdown travel-class col-2">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="dropdown travel-class w-auto">
+                <button class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false">
                   Travel Class
                 </button>
                 <div class="dropdown-menu cabin-box">
                   <div class="container-fluid">
                     <div class="row p-1 mb-2">
-                      <div class="col-8 border-end">
+                      <div class="col-md-8 border-end">
                         <p class="cabin-title">TRAVELLERS</p>
                         <div class="passengers">
                           <div class="passenger-type row">
-                            <span class="col-8">
+                            <span class="col-md-8 col-sm-4 col-12">
                               <p class="passenger">Adults</p>
                               <p class="passenger-age">Above 12 years</p>
                             </span>
-                            <div class="passenger-input d-flex col-4">
+                            <div class="passenger-input d-flex col-4 ">
                               <div class="btn-minus btn btn-light">-</div>
                               <div class="passenger-value">0</div>
                               <div class="btn-plus btn btn-light">+</div>
                             </div>
                           </div>
                           <div class="passenger-type row">
-                            <span class="col-8">
+                            <span class="col-md-8 col-sm-4 col-12">
                               <p class="passenger">Children</p>
                               <p class="passenger-age">Between 2-12 years</p>
                             </span>
@@ -117,7 +117,7 @@
                             </div>
                           </div>
                           <div class="passenger-type row">
-                            <span class="col-8">
+                            <span class="col-md-8 col-sm-4 col-12">
                               <p class="passenger">Infants</p>
                               <p class="passenger-age">Below 2 years</p>
                             </span>
@@ -129,7 +129,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-4">
+                      <div class="col-md-4">
                         <p class="cabin-title">CABIN CLASS</p>
                         <div class="cabin-list row">
                           <label for="Economy"><input type="radio" name="cabin" id="Economy">Economy</label>
@@ -142,7 +142,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-primary col-1">Search</button>
+              <button class="btn btn-primary w-auto" style="margin: auto;margin-top: 0.3rem;">Search</button>
             </div>
           </div>
         </form>
@@ -184,7 +184,7 @@
       </button>
     </div>
     <div class="row bg-white justify-content-around">
-      <div class="col-lg-4 col-md-auto row bg-white shadow">
+      <div class="col-lg-4 col-12 row bg-white shadow">
         <div class="offer-card">
           <h3>On international flights get up to 25,000 Off</h3>
           <p>Grab & Gone</p>
@@ -196,7 +196,7 @@
           <span>FLYFK</span>
         </div>
       </div>
-      <div class="col-lg-4 col-md-auto row bg-white shadow">
+      <div class="col-lg-4 col-12 row bg-white shadow">
         <div class="offer-card">
           <h3>Get up to 1,000 Off on flights</h3>
           <p>with credit card EMI trxns</p>
@@ -208,7 +208,7 @@
           <span>FLYFK</span>
         </div>
       </div>
-      <div class="col-lg-4 col-md-auto row bg-white shadow">
+      <div class="col-lg-4 col-12 row bg-white shadow">
         <div class="offer-card">
           <h3>international flights starting at 4,999</h3>
           <p>Grab & Gone</p>

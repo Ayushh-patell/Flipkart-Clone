@@ -12,14 +12,14 @@
 
 <body>
   <nav class="navbar navbar-expand-lg bg-primary p-0">
-    <div class="container-fluid justify-content-center">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <p class="brand-name">Flipkart</p>
         <p class="brand-sub">Explore More</p>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
         aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><ion-icon name="menu-outline"></ion-icon></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar-content">
         <form id="search-form" class="d-flex" role="search">
@@ -68,21 +68,21 @@
   </nav>
   <div class="container-fluid">
     <div class="row nav-menu bg-white shadow">
-      <div class="col position-relative d-flex align-items-center flex-column">
+      <div class="col menu-boxes position-relative d-flex align-items-center flex-column">
         <img src="img/box-of-items.jpg" alt="products" srcset="">
         <p>Groceries</p>
       </div>
-      <div class="col position-relative">
+      <div class="col menu-boxes position-relative">
         <a class="d-flex align-items-center flex-column category" href="Mobile.html">
-          <img src="img/box-of-items.jpg" alt="products" srcset="">
+          <img src="img/mobile-phone.png" alt="products" srcset="">
           <p>Mobiles</p>
         </a>
       </div>
-      <div class="menu-drop col position-relative">
+      <div class="menu-drop menu-boxes col position-relative">
         <a class="d-flex align-items-center flex-column category" href="cloths.html">
-        <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Fashion</p>
-      </a>
+          <img src="img/shirt.jpg" alt="products" srcset="">
+          <p>Fashion</p>
+        </a>
         <ul class="menu-list">
           <li class="dropdown-item">Category
             <ul class="list-list">
@@ -131,10 +131,10 @@
           </li>
         </ul>
       </div>
-      <div class="menu-drop col position-relative">
+      <div class="menu-drop menu-boxes col position-relative">
         <a class=" d-flex align-items-center flex-column" href="electronic.html">
-          <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Electronics</p>
+          <img src="img/camera.jpg" alt="products" srcset="">
+          <p>Electronics</p>
         </a>
         <ul class="menu-list">
           <li class="dropdown-item">Category
@@ -184,9 +184,11 @@
           </li>
         </ul>
       </div>
-      <div class="menu-drop col position-relative d-flex align-items-center flex-column">
-        <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <a href="Home-furniture.html"><p>Home & Furniture</p></a>
+      <div class="menu-drop menu-boxes col position-relative d-flex align-items-center flex-column">
+        <a href="Home-furniture.html">
+          <img src="img/cabinet.jpg" alt="products" srcset="">
+          <p>Home & Furniture</p>
+        </a>
         <ul class="menu-list">
           <li class="dropdown-item">Category
             <ul class="list-list">
@@ -235,28 +237,28 @@
           </li>
         </ul>
       </div>
-      <div class="col position-relative">
+      <div class="col menu-boxes position-relative">
         <a class=" d-flex align-items-center flex-column" href="appliances.html">
-          <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Appliances</p>
+          <img src="img/fridge.png" alt="products" srcset="">
+          <p>Appliances</p>
         </a>
       </div>
-      <div class="col position-relative">
+      <div class="col menu-boxes position-relative">
         <a class=" d-flex align-items-center flex-column" href="travel.html">
           <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Travels</p>
+          <p>Travels</p>
         </a>
       </div>
-      <div class="col position-relative">
+      <div class="col menu-boxes position-relative">
         <a class=" d-flex align-items-center flex-column" href="beauty-toy.html">
-          <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Beauty, Toys & More</p>
+          <img src="img/shampoo.jpg" alt="products" srcset="">
+          <p>Beauty, Toys & More</p>
         </a>
       </div>
-      <div class="col position-relative">
+      <div class="col menu-boxes position-relative">
         <a class=" d-flex align-items-center flex-column" href="two-wheeler.html">
-          <img src="img/box-of-items.jpg" alt="products" srcset="">
-        <p>Two Wheelers</p>
+          <img src="img/scooter.png" alt="products" srcset="">
+          <p>Two Wheelers</p>
         </a>
       </div>
     </div>
@@ -283,13 +285,14 @@
     </button>
   </div>
   <div class="row my-4 bg-white shadow">
-    <div class="col-2 view-box d-flex flex-column justify-content-center align-items-center">
+    <div class="col-md-2 view-box d-flex flex-column justify-content-center align-items-center">
       <h4>Best of Electronics</h4>
       <button class="btn btn-primary" style="width: 6rem;">View All</button>
     </div>
-    <div class="col-10 row card-box">
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+    <div class="col-md-10 row card-box">
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -298,8 +301,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -308,8 +312,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -318,8 +323,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -328,8 +334,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -338,8 +345,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -348,8 +356,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -358,8 +367,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/camera.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -371,13 +381,14 @@
     </div>
   </div>
   <div class="row my-4 bg-white shadow">
-    <div class="col-2 view-box-2 d-flex flex-column justify-content-center align-items-center">
+    <div class="col-md-2 view-box-2 d-flex flex-column justify-content-center align-items-center">
       <h4>Beauty, Toys & More</h4>
       <button class="btn btn-primary" style="width: 6rem;">View All</button>
     </div>
-    <div class="col-10 row card-box">
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+    <div class="col-md-10 row card-box">
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -386,8 +397,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -396,8 +408,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -406,8 +419,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -416,8 +430,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -426,8 +441,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -436,8 +452,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -446,8 +463,9 @@
           </span>
         </div>
       </div>
-      <div class="card" style="width: 16rem;">
-        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top" alt="product image"></a>
+      <div class="card" style=" width: 13rem;">
+        <a href="product.html" class="d-flex justify-content-center"><img src="img/Bicycle.jpg" class="card-img-top"
+            alt="product image"></a>
         <div class="card-body">
           <span class="card-text">
             <p class="m-0">Product Name</p>
@@ -570,4 +588,5 @@
 <script src="bootstrap.bundle.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </html>

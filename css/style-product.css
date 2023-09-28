@@ -6,6 +6,11 @@ p {
     margin: 0;
 }
 
+.nav-menu {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
 .image-list {
     position: relative;
     min-width: 90px;
@@ -42,6 +47,7 @@ p {
     bottom: 0;
 
 }
+
 .like {
     font-size: 1.7rem;
     position: absolute;
@@ -55,6 +61,7 @@ p {
     right: 5px;
     color: gray;
 }
+
 .like-clicked {
     color: hotpink;
 }
@@ -157,21 +164,23 @@ ul li {
 .description,
 .specs,
 .other-prod,
-.rating-prod, 
+.rating-prod,
 .questions {
     margin: 0.3rem;
     border: 1px solid rgba(104, 104, 104, 0.47);
 }
+
 h3 {
     font-weight: 600;
 }
+
 .description h3,
 .specs h3,
 .other-prod h3,
 .card-cont,
-.rating-prod h3, 
-.reviews, 
-.questions h3, 
+.rating-prod h3,
+.reviews,
+.questions h3,
 .question-box {
     border-bottom: 1px solid rgba(104, 104, 104, 0.47);
 }
@@ -274,10 +283,15 @@ h3 {
 
 .rating-circle {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    min-width: 37px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     margin: 0 0.4rem;
+}
+
+.rating-line {
+    justify-content: center;
 }
 
 .rating-circle span {
@@ -322,12 +336,14 @@ h3 {
 
 .card-box {
     padding-top: 5rem;
-position: relative;
+    position: relative;
 }
+
 .card-cont {
     overflow: scroll;
     flex-wrap: nowrap;
 }
+
 .view-box {
     position: absolute;
     padding: 1rem 0.1rem;
@@ -335,17 +351,62 @@ position: relative;
     display: flex;
     border-bottom: 1px solid gray;
 }
+
 .view-box button {
     width: 7%;
     margin-left: auto;
 }
+.prod-desc img {
+    height: 100%;
+}
+
 .card a {
-    width: 16rem;
-    height: 20rem;
+    width: 10rem;
+    height: 12rem;
     position: relative;
     align-items: center;
 }
+
 .card a img {
     width: 100%;
-  height: fit-content;
+    height: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+    .circle-rating-box {
+        justify-content: center;
+        margin: 0.4rem 0;
+    }
+
+    .circle-rating-boxes {
+        display: flex;
+        align-items: center;
+    }
+
+    .rating-line {
+        justify-content: center;
+    }
+
+    .rating-bar {
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:574px) {
+    .prod-desc img {
+        height: 50%;
+    }
+    .other-total, .total-price {
+        flex-direction: column;
+    }
+    .circle-rating-boxes {
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:358px) {
+    .prod-desc {
+        flex-direction: column;
+    }
+    
 }

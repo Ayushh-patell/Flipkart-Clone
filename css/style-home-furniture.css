@@ -3,19 +3,22 @@
 position: relative;
 }
 .card-cont {
+    margin-top: 0.3rem;
     overflow: scroll;
+    flex-wrap: nowrap;
+}
+.nav-menu {
+    overflow-x: scroll;
     flex-wrap: nowrap;
 }
 .view-box {
     position: absolute;
-    padding: 1rem 0.1rem;
-    top: 0px;
-    display: flex;
-    border-bottom: 1px solid gray;
+}
+.view-box h4 {
+    font-size: 1rem;
 }
 .view-box button {
-    width: 7%;
-    margin-left: auto;
+    margin: 0 1rem;
 }
 body {
     background-color: rgb(235, 235, 235);

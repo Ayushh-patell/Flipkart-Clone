@@ -4,23 +4,48 @@
 .side-card {
     height: 16rem;
 }
+.view-box {
+    position: absolute;
+}
+.side-card-body {
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-card-body p{
+    margin: 0;
+}
 
 .card-box {
     padding-top: 5rem;
 position: relative;
 }
+.nav-menu {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
 .card-cont {
     overflow: scroll;
     flex-wrap: nowrap;
 }
-.view-box {
-    position: absolute;
-    padding: 1rem 0.1rem;
-    top: 0px;
-    display: flex;
-    border-bottom: 1px solid gray;
+@media screen and (max-width: 500px) {
+    .side-card {
+        height: 10rem;
+    }
+    .side-card-body p{
+        font-size: 0.8rem;
+    }
+    .side-card-body h4{
+        font-size: 1rem;
+    }
+    
 }
-.view-box button {
-    width: 7%;
-    margin-left: auto;
+@media screen and (max-width: 360px) {
+    .side-card {
+        height: 7rem;
+    }
+    
+    
 }

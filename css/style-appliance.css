@@ -10,9 +10,14 @@
 }
 
 .sale-box {
-    padding: 7rem;
+    padding: 7rem 0;
     background-color: #9cffff;
     margin: 0.25rem;
+    text-align: center;
+}
+.nav-menu {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
 }
 .option, .price-offer {
     height: 10rem;
@@ -53,10 +58,17 @@
 .price-offer .price {
     color: gray;
 }
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+}
+.view-box {
+    position: absolute;
+}
 .product {
     height: 200px;
     padding: 1rem;
-    width: 32%;
     background: linear-gradient(0deg, rgba(118,255,239,1) 0%, rgba(98,255,205,1) 100%);    justify-content: space-between;
     align-items: center;
 }
@@ -66,4 +78,40 @@
 }
 .product .price {
     color: rgb(53, 53, 53);
+}
+@media screen and (max-width: 930px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 612px) {
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sale-text {
+        font-size: 25px;
+    }
+    
+    .sale-text-2 {
+        font-size: 30px;
+    }
+    .title-2 h3{
+        font-size: 40px;
+    }
+    .title-2 p{
+        font-size: 30px;
+    }
+    .product .name, .product .price {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .title-2 h3{
+        font-size: 25px;
+    }
+    .title-2 p{
+        font-size: 20px;
+    }
+
 }

@@ -17,6 +17,10 @@ position: relative;
     width: 7%;
     margin-left: auto;
 }
+.nav-menu {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
 .desc {
     font-size: 0.8rem;
     color: gray;
@@ -27,13 +31,14 @@ position: relative;
 }
 .review-prod {
     max-height: 175px;
+    overflow-x: scroll;
+}
+.review-prod .details {
+    min-width: 175px;
 }
 p {
     margin: 0;
 }
 .specs {
     font-size: 0.9rem;
-}
-.bike-box {
-    width: 43%;
 }
