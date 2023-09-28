@@ -289,7 +289,7 @@ footer .row .col ul {
 }
 .view-box button {
     width: 20%;
-    min-width: 82px;
+    min-width: 92px;
     max-width: 110px;
   }
   @media screen and (max-width:992px) {
